@@ -2,22 +2,22 @@
 
 Este mecanismo foi desenvolvido a partir da documentação técnica disponibilizada pela [Juno](https://dev.juno.com.br/junoAPI20Integration.pdf).
 
-## Requisitos
+### Requisitos
 
 Ambiente Python 3 e as bibliotecas: base64, json, requests e pandas
 
-## Integração
+### Integração
 
 A comunicação é feita com modelo e parânetros JSON
 
-## Ambientes
+### Ambientes
 
 Temos dois Ambientes:
 Produção e Sandbox
 
 
 
-##### Importando as Bibliotecas e Definindo Parâmetros Globais das requisições
+#### Importando as Bibliotecas e Definindo Parâmetros Globais das requisições
 
 ```c#
 import base64
@@ -34,7 +34,7 @@ d = "chave"
 
 ```
 
-### Gerando o Token
+#### Gerando o Token
 
 O `Token` é necessário para as demais requisições. Cada Token tem o prazo de Validade.
 [referência](https://www.boletobancario.com/boletofacil/integration/integration.html#cobrancas). 
@@ -61,7 +61,7 @@ tip ="Bearer "+token}
 
 
 
-## Suporte Juno
+####### Suporte Juno
 
 [equipe de implantação Juno](mailto:implantacao@juno.com.br).
 
